@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZenTotem", "ZenTotem\ZenTotem.csproj", "{E08F397B-B896-442F-A6A0-85E48C5505BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenTotemTests", "ZenTOtemTests\ZenTotemTests.csproj", "{ED827AA0-EBC0-4411-B399-F60D8C59922C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E08F397B-B896-442F-A6A0-85E48C5505BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08F397B-B896-442F-A6A0-85E48C5505BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08F397B-B896-442F-A6A0-85E48C5505BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08F397B-B896-442F-A6A0-85E48C5505BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED827AA0-EBC0-4411-B399-F60D8C59922C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED827AA0-EBC0-4411-B399-F60D8C59922C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED827AA0-EBC0-4411-B399-F60D8C59922C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED827AA0-EBC0-4411-B399-F60D8C59922C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC5D18DF-A306-4FAF-868F-0695340D89AB}
+	EndGlobalSection
+EndGlobal
