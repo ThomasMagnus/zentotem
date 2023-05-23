@@ -2,16 +2,27 @@
 
 namespace ZenTotem.Handlers
 {
+    /// <summary>
+    /// Главный хэндлер, который обрабатывает CRUD API
+    /// </summary>
     public class CrudHandler : ICrudHandler
     {
         private readonly JsonReaderHandler? _readerHandler;
         private readonly List<User> _userList;
+        private readonly string filePath = Directory.GetCurrentDirectory() + "/users.json";
 
         public CrudHandler()
         {
-            _readerHandler = new JsonReaderHandler("C:\\Users\\emmag\\source\\repos\\ZenTotem\\ZenTotem\\users.json");
+            _readerHandler = new JsonReaderHandler(filePath);
             _userList = _readerHandler?.JsonReadText()!;
         }
+
+        /// <summary>
+        /// Метод для добавления пользователя
+        /// </summary>
+        /// <param name="firstName">Имя пользователя: string</param>
+        /// <param name="lastName">Фамилия пользователя: string</param>
+        /// <param name="salaryPerHour">Оплата за час: decimal</param>
         public void AddUser(string firstName, string lastName, decimal salaryPerHour)
         {
             int maxId = _userList.Last().Id;
@@ -31,6 +42,10 @@ namespace ZenTotem.Handlers
             Console.WriteLine("Пользователь добавлен!");
         }
 
+        /// <summary>
+        /// Метод для удаления пользователя по Id
+        /// </summary>
+        /// <param name="id">ID пользователя: int</param>
         public void DeleteUser(int id)
         {
 
@@ -46,6 +61,9 @@ namespace ZenTotem.Handlers
             }
         }
 
+        /// <summary>
+        /// Метод для вывода всех пользователей
+        /// </summary>
         public void GetAllUser()
         {
             if (!_userList.Any()) { Console.WriteLine("Пользователей не найдено!"); }
@@ -61,6 +79,10 @@ namespace ZenTotem.Handlers
             }
         }
 
+        /// <summary>
+        /// Вывод в консоль пользователя по определенному ID
+        /// </summary>
+        /// <param name="id">ID пользователя: int</param>
         public void GetUser(int id)
         {
             User? user = UserSearcher.GetUser(id, _userList);
@@ -75,6 +97,11 @@ namespace ZenTotem.Handlers
             }
         }
 
+        /// <summary>
+        /// Изменение информации о пользователе
+        /// </summary>
+        /// <param name="id">ID пользователя: int</param>
+        /// <param name="userName">Имя пользователя: string</param>
         public void UpdateUser(int id, string userName)
         {
             User? user = UserSearcher.GetUser(id, _userList);

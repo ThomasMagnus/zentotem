@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emmag\\source\\repos\\ZenTotem\\ZenTotem\\ZenTotem.csproj": {}
+    "C:\\Users\\emmag\\Desktop\\ZenTotem\\ZenTotem\\ZenTotem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emmag\\source\\repos\\ZenTotem\\ZenTotem\\ZenTotem.csproj": {
+    "C:\\Users\\emmag\\Desktop\\ZenTotem\\ZenTotem\\ZenTotem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emmag\\source\\repos\\ZenTotem\\ZenTotem\\ZenTotem.csproj",
+        "projectUniqueName": "C:\\Users\\emmag\\Desktop\\ZenTotem\\ZenTotem\\ZenTotem.csproj",
         "projectName": "ZenTotem",
-        "projectPath": "C:\\Users\\emmag\\source\\repos\\ZenTotem\\ZenTotem\\ZenTotem.csproj",
+        "projectPath": "C:\\Users\\emmag\\Desktop\\ZenTotem\\ZenTotem\\ZenTotem.csproj",
         "packagesPath": "C:\\Users\\emmag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emmag\\source\\repos\\ZenTotem\\ZenTotem\\obj\\",
+        "outputPath": "C:\\Users\\emmag\\Desktop\\ZenTotem\\ZenTotem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

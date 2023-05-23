@@ -2,6 +2,9 @@
 
 namespace ZenTotem
 {
+    /// <summary>
+    /// Модель пользователей
+    /// </summary>
     public class User
     {
         [Key]

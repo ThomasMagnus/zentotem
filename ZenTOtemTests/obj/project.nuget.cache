@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6OJxILJDO7aNwuMq78CkiEmOlLUoUcPdNQVShMyoy9N+uXzx6PfMI10R2E1aLWz5pTliPg1XX3dZiwXfw1EcnQ==",
+  "dgSpecHash": "KZyXfXN3a+wQlTB/EspUyxK9Qq2EUkXHjTf6bOpuW6lMKslJ3jX0XavhjC1HQEPZJQsNUgDQIrc8nEPkVLybhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emmag\\source\\repos\\ZenTotem\\ZenTOtemTests\\ZenTotemTests.csproj",
+  "projectFilePath": "C:\\Users\\emmag\\Desktop\\ZenTotem\\ZenTOtemTests\\ZenTotemTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emmag\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\emmag\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
